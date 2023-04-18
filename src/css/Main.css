@@ -1,0 +1,193 @@
+.mainSection {
+  background-color: #f8f8f8;
+  padding: 2rem 0;
+}
+.mainSection > div {
+  background-image: url(/public/img/sec1_bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+/* ===================sec1======================== */
+.sec1Con {
+  width: 50%;
+}
+.sec1Con h1 {
+  padding: 1rem 0;
+  line-height: 1.25;
+  font-weight: bold;
+  font-size: 54px;
+  color: #3a408c;
+}
+.sec1Con p strong {
+  font-weight: bold;
+  font-size: 20px;
+}
+.sec1Con p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #707070;
+}
+.btn.red {
+  display: inline-block;
+  margin-top: 3rem;
+  background-color: #e2342d;
+  padding: 1rem 2rem;
+  color: white;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+
+/* ===================sec2======================== */
+.sec2 {
+  margin: 4rem auto;
+}
+.sec2 h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.sec2 h1 > span {
+  display: inline-block;
+  padding: 0 1rem 2rem 0;
+  color: #3a408c;
+}
+.sec2 h1 > span:nth-of-type(1) {
+  color: red;
+}
+.newList .swiper-slide {
+  background-color: #ccc;
+}
+.newList .pCon {
+  position: relative;
+}
+.pCon .pImg {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 6rem 0;
+  position: relative;
+}
+.pCon .pImg img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
+.pCon .pImg .pLabel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #e2342d;
+  color: white;
+  padding: 0.25rem 2rem;
+}
+.pCon .pTitle {
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.detailBtn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.detailPage.detailBtn {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.swiper-button-prev,
+.swiper-button-next {
+}
+
+/* =================== weekly =================== */
+.template {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem auto;
+}
+.template.sec3 .secbg {
+  margin-right: 2rem;
+}
+.template h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #004197;
+}
+.template h1 span:first-of-type {
+  color: #e2342d;
+}
+.template .secbg {
+  width: 45%;
+  background-image: url(/public/img/sec3_bg1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.template .slide {
+  width: calc(100% - 40% - 4rem);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.template > div > .btn {
+  background-color: #ccc;
+  padding: 0.25rem 1rem;
+}
+/* =================== weekly =================== */
+.template.sec4 .secbg {
+  margin-left: 2rem;
+}
+.template.sec4 .secbg {
+  background-image: url(/public/img/sec4_bg1.png);
+}
+
+.middleSec {
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.middleSec span {
+  font-weight: bold;
+  text-align: center;
+}
+.middleSec span:first-of-type {
+  font-size: 3rem;
+  color: black;
+  margin: 2rem;
+}
+.middleSec span:first-of-type strong {
+  color: #e2342d;
+}
+/* =====================sec5======================== */
+.sec5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec5 > * {
+  padding: 0 1rem;
+}
+.sec5 > img {
+  width: 15%;
+}
+.sec5 > div {
+  width: 40%;
+}
+.sec5Menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec5Menu p {
+  width: 50%;
+}
+.end {
+  text-align: center;
+}

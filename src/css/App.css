@@ -1,0 +1,59 @@
+.App {
+}
+
+.mw {
+  max-width: 1400px;
+  width: calc(100% -4rem);
+  margin: auto;
+  border: 1px solid red;
+}
+.hd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gnb {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.gnb a {
+  border: 1px solid tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  order: 2;
+  padding: 1rem;
+}
+.logo img {
+  width: 80%;
+}
+.gnb a:nth-last-of-type(3) ~ a {
+  order: 4;
+}
+.hd {
+}
+
+.btn {
+  padding: 0.25rem 0.5rem;
+}
+.btn.test1 {
+}
+.btn.test2 {
+}
+.btn.test3 {
+}
+.btn.test4 {
+}
+.result {
+  border: 1px solid black;
+}
+.cl {
+  cursor: pointer;
+  fill: black;
+}
+.cl:hover .cls {
+  fill: black;
+}
